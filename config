@@ -21,7 +21,7 @@ set $term alacritty
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
-set $menu rofi -show drun -drun-display-format {name} | xargs swaymsg exec --
+set $menu $HOME/.config/rofi/rofi-config.sh | xargs swaymsg exec --
 
 ### Output configuration
 #
