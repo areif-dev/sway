@@ -232,4 +232,5 @@ client.focused_inactive #11111b #11111b #11111b #11111b
 
 include /etc/sway/config.d/*
 exec_always autotiling
+exec_always $HOME/.config/sway/monitor-scale.sh
 # exec /home/aj/projects/python/test/.virtual/bin/layman
